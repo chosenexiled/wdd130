@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Ubuntu:wght@500&display=swap');
+:root {
+    --primary-color: #297373;
+    --secondary-color: #E6E6E6;
+    --accent1-color: #e9d758;
+    --accent2-color: #FF8552;
+  
+    --heading-font: 'Agbalumo', serif;
+    --paragraph-font: 'Ubuntu', serif;
+  
+    --nav-background-color: #297373;
+    --nav-link-color: #E6E6E6;
+    --nav-hover-link-color: #297373;
+    --nav-hover-background-color: #FF8552;}
+    body {
+    font-family: var(--paragraph-font);
+      max-width: 960px;
+        padding: 20px;
+      }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);}
+    header {
+        padding: 20px;
+        background-color: var(--accent1-color);}
+       
+        p {padding: 25px;}
+    
+        nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display: flex;
+      }
+      
+      nav a {
+        display: block;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+      }
+      
+      nav a:link, nav a:visited {
+        color: var(--nav-link-color);
+      }
+      
+      nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);}
+       
