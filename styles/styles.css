@@ -1,3 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main img {
+    float: right;
+}
+aside {
+    position: relative;
+}
+aside h2 {
+    position: absolute;
+}
+
+/* Class Selectors */
 nav {background-color: steelblue;padding: 10px;}
 nav a {color: white;display: block;padding: 20px;}
 h1 {color: steelblue;}
