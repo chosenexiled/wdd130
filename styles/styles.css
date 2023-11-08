@@ -3,22 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-main img {
-    float: right;
-}
+
 aside{
     position: relative;
 }
 aside h2 {
     position: absolute;
+    top: 47px;
+    left: 150px;
 }
 
-/* Class Selectors */
+
 nav {background-color: steelblue;padding: 10px;}
 nav a {color: white;display: block;padding: 20px;}
 h1 {color: steelblue;}
-main img {width: 150px;height: auto;border: 1px solid steelblue;padding: 2px;box-shadow: 0 0 30px gray;}
+main img {width: 150px;height: auto;border: 1px solid steelblue;padding: 2px;box-shadow: 0 0 30px gray; float: right; }
 p{padding: 0px;}
 main {width: 20rem; margin: 1rem; border: 1px solid black; padding: 1rem; background: rgb(0, 179, 255); color: white; text-align: center;}
 aside img{width: 200px; height: auto;}
 footer { margin-top: 15px; border-top: 1px solid black;text-align: center;}
+/* Class Selectors */
+.box {
+    margin: 1rem; 
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: rgb(240, 229, 229);
+    color: rgb(57, 120, 207);
+}
