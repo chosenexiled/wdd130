@@ -47,18 +47,15 @@
             color: var(--nav-hover-link-color);
             background-color: var(--nav-hover-background-color);}
          section img{display:block;width: 50%;height: auto;}  
-.hero img 
-    {
-                display: block;
-                width: 25%;
-                height: auto;
-                
-    }
-    .flex {display:flex}
-    h1 {position: absolute;}
-    article{position: absolute;background-color: #297373; }
-    article img {float: right;}
-    header img{height: 80px;}
-    footer{height: 50px;}
-    footer img{float:right; height: 40px;
-    }
+         h1 {position: absolute;}
+         article{position: absolute;background-color: #297373; }
+         article img {float: right;}
+         header img{height: 80px;}
+         footer{height: 50px;}
+         footer img{float:right; height: 40px;}
+         .hero img 
+ { display: block;
+   width: 25%;
+  height: auto;
+ }   
+.flex {display:flex}
