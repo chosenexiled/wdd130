@@ -54,6 +54,7 @@
                 height: auto;
                 
     }
+    .flex {display:flex}
     h1 {position: absolute;}
     article{position: absolute;background-color: #297373; }
     article img {float: right;}
