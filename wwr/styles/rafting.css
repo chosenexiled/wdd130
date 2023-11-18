@@ -59,4 +59,7 @@
   height: auto;
  }   
 
-.flex img{display:flex; max-width: 200px;}
+.flex {display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+  }
