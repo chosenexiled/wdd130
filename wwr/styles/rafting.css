@@ -12,6 +12,21 @@
     --nav-link-color: #E6E6E6;
     --nav-hover-link-color: #297373;
     --nav-hover-background-color: #FF8552;}
+.hero img 
+ { display: flex;
+   width: 25%;
+  height: auto;
+ }   
+.bill {
+  display: flex;
+  align-items: center;
+}
+
+.flex {display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 6px;
+  }
+.bot{display: grid;}
     body {
         font-family: var(--paragraph-font);
           max-width: 960px;
@@ -61,20 +76,6 @@
          header img{height: 80px;}
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
-         .hero img 
- { display: flex;
-   width: 25%;
-  height: auto;
- }   
- .bill {
-  display: flex;
-  align-items: center;
-}
-
-.flex {display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap: 6px;
-  }
-  .bot{display: grid;}
+        
   
 
