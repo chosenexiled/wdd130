@@ -18,8 +18,9 @@
   height: auto;
  }   
 .bill {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #297373;
-  display: flex;
+  display: grid;
   align-items: center;
 }
 
