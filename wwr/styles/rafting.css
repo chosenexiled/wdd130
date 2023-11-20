@@ -79,6 +79,7 @@ background-color: var(--accent1-color);
          h1 {position: absolute;}
          article{background-color: #297373; 
         display: inline-table;
+        border-bottom: 5px #E6E6E6;
       }
          article img {float: right;}
          header img{height: 80px;}
