@@ -23,12 +23,14 @@
   align-items: center;
 }
 
-.flex {display: grid;
+.flex {
+background-color: var(--accent1-color);
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 6px;
   }
-.bot{grid-column: span 3/2;}
-.mid
+.bot{grid-column: span 3/6;}
+.mid{grid-column: span 3/2;}
     body {
         font-family: var(--paragraph-font);
           max-width: 960px;
