@@ -18,7 +18,7 @@
   height: auto;
  }   
 .bill {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: var(--primary-color);
   display: grid;
   align-items: center;
@@ -31,7 +31,7 @@ background-color: var(--accent1-color);
   gap: 6px;
   }
 .bot{grid-column: span 3/6;}
-.mid{grid-column: span 3/2;}
+.mid{grid-column: span 2/4;}
     body {
         font-family: var(--paragraph-font);
           max-width: 960px;
