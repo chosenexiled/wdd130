@@ -62,7 +62,7 @@
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
          .hero img 
- { display: block;
+ { display: flex;
    width: 25%;
   height: auto;
  }   
