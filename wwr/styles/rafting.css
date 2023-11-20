@@ -71,3 +71,11 @@
   gap: 6px;
   }
   .bot{display: grid;}
+  .navigation {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navigation li {
+    flex: 1 1 100%;
+  }
