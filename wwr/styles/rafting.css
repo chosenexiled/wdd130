@@ -27,7 +27,8 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 6px;
   }
-.bot{display: grid;}
+.bot{grid-column: span 3/2;}
+.mid
     body {
         font-family: var(--paragraph-font);
           max-width: 960px;
