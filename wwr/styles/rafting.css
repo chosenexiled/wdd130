@@ -18,6 +18,7 @@
   height: auto;
  }   
 .bill {
+  background-color: #297373;
   display: flex;
   align-items: center;
 }
@@ -34,7 +35,7 @@
           }
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--heading-font);
-            color: var(--primary-color);}
+            color: var(--secondary-color);}
         header {
           margin: 1rem auto;
           display: grid;
