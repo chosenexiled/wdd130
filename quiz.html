@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="sean mcmillan">
     <title>WDD 130 | HTML Form - User Quiz</title>
-    <link rel="stylesheet" href="/styles/quiz.css"> 
+
+    <link rel="stylesheet" href="wdd130/styles/quiz.css"> 
 </head>
 <body>
     <header>
@@ -24,6 +26,7 @@
         
         <form>
         <fieldset>
+        <legend>Questions</legend>
         <label>What is your favorite browser?</label>
         <select id="browser" name="browser">
         <option value="chrome">chrome</option>
@@ -33,7 +36,7 @@
         <option value="brave">Brave</option>
         <option value="other">Other</option>
         </select>
-        <legend>Questions</legend>
+        
         <label for="pet">Do you have a household pet?</label>
         <input type="checkbox" id="pet" name="pet">
         <label for="feedback">List the places you have lived:</label>
