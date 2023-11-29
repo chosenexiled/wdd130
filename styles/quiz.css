@@ -58,7 +58,7 @@
     {font-family: Roboto, Arial, san-serif;
     }
     label {
-        text-align: right;
+        text-align: left;
     padding-right: 1rem;
 }
 input, select, textarea {
