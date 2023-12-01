@@ -86,5 +86,50 @@ background-color: var(--accent1-color);
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
         
-  
+         button {
+          margin: 1rem;
+          background-color: navy;
+          color: #fff;
+          border: none;
+          border-radius: .5rem;
+          padding: .75rem;
+          font-size: 1.2rem;
+      }
+      form {
+        width: 650px;
+        margin: 0 auto;
+        padding: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        background-color: #eee;
+        display: grid;
+    }
+    fieldset {
+        display: grid;
+        grid-gap: .5rem;
+        margin: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+    }
+    legend {
+        padding: 0.5rem;
+        color: navy;
+        font-size: 1.3em;
+    }
+    label, input, button, select, textarea 
+    {font-family: Roboto, Arial, san-serif;
+    }
+    label {
+        text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
 
