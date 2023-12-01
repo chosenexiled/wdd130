@@ -40,7 +40,7 @@ background-color: var(--accent1-color);
           }
         h1, h2, h3, h4, h5, h6 {
             font-family: var(--heading-font);
-            color: var(--secondary-color);}
+            color: var(--accent1-color);}
         header {
           margin: 1rem auto;
           display: grid;
