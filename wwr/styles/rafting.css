@@ -79,9 +79,10 @@ background-color: var(--accent1-color);
         
          article{background-color: #297373; 
         display: inline-table;
-        border-bottom: 5px #E6E6E6;
+        
       }
-         article img {float: right;}
+         article img { border: #FF8552 solid;
+          float: right;}
          header img{height: 80px;}
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
@@ -132,4 +133,25 @@ input[type="checkbox"] {
     height: 22px;
     vertical-align: bottom;
 }
-
+table, th, td {
+  border: 1px solid black;
+}
+table { 
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;}
+  .linkbut {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #e9d758
+}
