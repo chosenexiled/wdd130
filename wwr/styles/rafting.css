@@ -83,7 +83,7 @@ background-color: var(--accent1-color);
       }
          article img { border: #FF8552 solid;
           float: right;}
-         header img{height: 80px;}
+         .logo {height: 80px;}
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
         
