@@ -179,4 +179,4 @@ table {
   height: 176px;
   top: 0;
   position: absolute;}
-  .hellow {display: grid;background-color: #297373;gap: 6px;}
+  .hellow {display: grid;background-color: #297373;gap: 6px; grid-template-columns: 1fr 1fr 1fr 1fr;}
