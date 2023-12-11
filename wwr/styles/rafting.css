@@ -12,8 +12,8 @@
     --nav-link-color: #E6E6E6;
     --nav-hover-link-color: #297373;
     --nav-hover-background-color: #FF8552;}
-.thumb{ position: absolute;}
-.yo {z-index: 1;position: absolute;}
+
+.yo {z-index: 1;position: absolute;LEFT: 190px;}
     .hero img 
  {
    width: 25%;
