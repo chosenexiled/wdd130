@@ -50,6 +50,7 @@ background-color: var(--accent1-color);
           max-width: 1000px;
             background-color: var(--accent1-color);}
            header a{
+            z-index: 1;
             border: none;
             display: inline-block;
             padding: 8px 16px;
@@ -61,8 +62,10 @@ background-color: var(--accent1-color);
             text-align: center;
             cursor: pointer;
             white-space: nowrap;
-            background-color: #FF8552
+            background-color: #FF8552;
         }
+        
+        
             p {padding: 25px;}
         
             nav {
@@ -96,7 +99,7 @@ background-color: var(--accent1-color);
       }
          article img { border: #FF8552 solid;
           float: right;}
-         .logo {height: 80px;}
+         .logo {height: 80px;z-index: 1;}
          footer{height: 50px;}
          footer img{float:right; height: 40px;}
         
@@ -168,4 +171,9 @@ table {
     white-space: nowrap;
     background-color: #e9d758
 }
-.wide{display: inline;}
+.wide{
+  left: 0;
+  width: 987px;
+  height: 176px;
+  top: 0;
+  position: absolute;}
